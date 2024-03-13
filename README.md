@@ -118,7 +118,6 @@ bash tabular_vae/evaluate_all_vae.sh
 ```
 IK Experiments:
 ```
-cd ik
 python ik/evaluate.py --model_file ${checkpoint_file}
 ```
 
