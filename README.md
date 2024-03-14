@@ -11,6 +11,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-uci-power)](https://paperswithcode.com/sota/density-estimation-on-uci-power?p=paddingflow-improving-normalizing-flows-with)
 
 Code for reproducing the experiments in the paper:
+>Qinglong Meng, Chongkun Xia, and Xueqian Wang, "PaddingFLow: Improving Normalizing Flows with Padding-Dimensional Noise
+"
+>[[arXiv]](https://arxiv.org/abs/2403.08216)
 
 ## Setup
 Setup environment:
