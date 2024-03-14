@@ -1,6 +1,15 @@
 # PaddingFLow: Improving Normalizing Flows with Padding-Dimensional Noise
  	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-bsds300)](https://paperswithcode.com/sota/density-estimation-on-bsds300?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-caltech-101)](https://paperswithcode.com/sota/density-estimation-on-caltech-101?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-freyfaces)](https://paperswithcode.com/sota/density-estimation-on-freyfaces?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-mnist)](https://paperswithcode.com/sota/density-estimation-on-mnist?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-omniglot)](https://paperswithcode.com/sota/density-estimation-on-omniglot?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-uci-gas)](https://paperswithcode.com/sota/density-estimation-on-uci-gas?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-uci-hepmass)](https://paperswithcode.com/sota/density-estimation-on-uci-hepmass?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-uci-miniboone)](https://paperswithcode.com/sota/density-estimation-on-uci-miniboone?p=paddingflow-improving-normalizing-flows-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-uci-power)](https://paperswithcode.com/sota/density-estimation-on-uci-power?p=paddingflow-improving-normalizing-flows-with)
+
 Code for reproducing the experiments in the paper:
 
 ## Setup
