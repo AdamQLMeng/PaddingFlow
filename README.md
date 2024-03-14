@@ -1,5 +1,6 @@
 # PaddingFLow: Improving Normalizing Flows with Padding-Dimensional Noise
-
+ 	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/paddingflow-improving-normalizing-flows-with/density-estimation-on-bsds300)](https://paperswithcode.com/sota/density-estimation-on-bsds300?p=paddingflow-improving-normalizing-flows-with)
 Code for reproducing the experiments in the paper:
 
 ## Setup
