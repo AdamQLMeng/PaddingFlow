@@ -14,6 +14,7 @@ Code for reproducing the experiments in the paper:
 >Qinglong Meng, Chongkun Xia, and Xueqian Wang, "PaddingFLow: Improving Normalizing Flows with Padding-Dimensional Noise
 "
 >[[arXiv]](https://arxiv.org/abs/2403.08216)
+>[![arxiv.org](https://img.shields.io/badge/cs.RO-%09arXiv%3A2111.08933-red)](https://arxiv.org/abs/2403.08216)
 
 ## Setup
 Setup environment:
