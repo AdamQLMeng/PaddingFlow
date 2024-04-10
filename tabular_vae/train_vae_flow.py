@@ -31,13 +31,13 @@ from util import set_seed
 from vae_lib.optimization.training import train, evaluate
 from vae_lib.utils.load_data import load_dataset
 from vae_lib.utils.plotting import plot_training_curve
-from vae_lib.utils.visual_evaluation import plot_reconstructions, multinomial_class
+from vae_lib.utils.visual_evaluation import plot_reconstructions, multinomial_class, plot_images
 
 SOLVERS = ["dopri5", "bdf", "rk4", "midpoint", 'adams', 'explicit_adams', 'fixed_adams']
 parser = argparse.ArgumentParser(description='PyTorch Sylvester Normalizing flows')
 
 parser.add_argument(
-    '-d', '--dataset', type=str, default='mnist', choices=['mnist', 'freyfaces', 'omniglot', 'caltech', 'cifar10'],
+    '-d', '--dataset', type=str, default='mnist', choices=['mnist', 'freyfaces', 'omniglot', 'caltech'],
     metavar='DATASET', help='Dataset choice.'
 )
 
@@ -421,15 +421,12 @@ def run(args, kwargs):
         best_model.add_noise = args.add_noise
         best_model.denoise = args.denoise
 
-    # logger.info("---------------Calculate ELBO--------------")
-    # nll, nll_bpd, nelbo, nelbo_bpd, rec = evaluate(test_loader, best_model, args, logger, testing=True)
-    # logger.info(f"[Test] NLL: {nll}, NLL (BPD): {nll_bpd}, -ELBO: {nelbo}, -ELBO (BPD): {nelbo_bpd}), REC: {rec}")
+    logger.info("---------------Calculate ELBO--------------")
+    nll, nll_bpd, nelbo, nelbo_bpd, rec = evaluate(test_loader, best_model, args, logger, testing=True)
+    logger.info(f"[Test] NLL: {nll}, NLL (BPD): {nll_bpd}, -ELBO: {nelbo}, -ELBO (BPD): {nelbo_bpd}), REC: {rec}")
 
     logger.info("---------------Calculate metrics--------------")
-    if args.dataset == "cifar10":
-        x = test_loader.dataset.data
-    else:
-        x, _ = test_loader.dataset.tensors
+    x, _ = test_loader.dataset.tensors
     set_seed(0)
     idxs = torch.randperm(len(x))
     x = x[idxs]
